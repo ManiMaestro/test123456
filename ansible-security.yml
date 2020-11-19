@@ -4,7 +4,7 @@
   collections:
     - devsec.hardening
   tasks:
-    import_role:
+    - import_role:
         name:  devsec.hardening.os_hardening
   roles:
     - geerlingguy.security
