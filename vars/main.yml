@@ -1,3 +1,4 @@
+host_key_checking: false
 security_ssh_password_authentication: "yes"
 security_sudoers_passworded:
   - mani
