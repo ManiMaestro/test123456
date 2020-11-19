@@ -1,2 +1,4 @@
-- src: geerlingguy.security
-- src: devsec.hardening
+roles:
+  - name: geerlingguy.security
+collections:
+  - name: devsec.hardening
