@@ -1,4 +1,5 @@
 roles:
   - name: geerlingguy.security
+  - name: devsec.hardening.os_hardening
 collections:
   - name: devsec.hardening
