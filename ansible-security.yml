@@ -5,6 +5,6 @@
     - devsec.hardening
   tasks:
     - import_role:
-        name:  os_hardening
+        name:  devsec.hardening.os_hardening
   roles:
     - geerlingguy.security
