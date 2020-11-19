@@ -1,6 +1,8 @@
 - hosts: all
-  become: yes
   vars_files:
     - vars/main.yml
+  collections:
+    - devsec.hardening
   roles:
+    - devsec.hardening.os_hardening
     - geerlingguy.security
