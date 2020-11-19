@@ -1,10 +1,6 @@
 - hosts: all
   vars_files:
     - vars/main.yml
-  collections:
-    - devsec.hardening
-  tasks:
-    - import_role:
-        name:  devsec.hardening.os_hardening
   roles:
     - geerlingguy.security
+    - dev-sec.os-hardening
