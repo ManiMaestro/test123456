@@ -1,1 +1,4 @@
-- geerlingguy.security
+- src: https://github.com/geerlingguy/ansible-role-security
+  scm: git
+  version: master
+  name: geerlingguy.security
